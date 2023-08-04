@@ -1,0 +1,33 @@
+GET http://127.0.0.1:8080/rooms
+###
+
+GET http://localhost:8080/rooms/user/462371a6-c627-4441-a784-8b3de45b3b8c
+###
+
+GET http://127.0.0.1:8080/users
+###
+
+GET http://127.0.0.1:8080/users/903d5c60-f985-4359-99b9-058cfccdaf5b
+###
+
+GET http://localhost:8080/users/phone/0332180921
+###
+
+GET http://localhost:8080/conversations/903d5c60-f985-4359-99b9-058cfccdaf5b
+###
+
+POST http://localhost:8080/users/create
+Content-Type: application/json
+
+{
+    "username": "mai linh",
+    "phone": "0332180931"
+}
+###
+
+GET http://localhost:8080/users/phone/0332180931
+###
+
+
+
+GET http://localhost:8080/rooms/prepare/3a32fb6e-373c-4321-8b78-73bf155e00bb
